@@ -1,1 +1,30 @@
 @charset "UTF-8";
+.balloon {
+  position: relative;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+.balloon:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 166px;
+  left: 30px;
+  border: 20px solid transparent ;
+  border-top: 20px solid #fad296;
+}
+.balloon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 173px;
+  left: 30px;
+  border: 20px solid transparent;
+  border-top: 20px solid #8f5a0a
+}
