@@ -103,6 +103,13 @@ ul {
   width: 300px;
   padding: 20px;
   border: solid 1px #000000;
+  transition: 1s;
+}
+.card:first-child {
+  border-right: none;
+}
+.card:last-child {
+  border-left: none;
 }
 .card:hover {
   box-shadow: 0px 0px 10px 3px #424242d0;
