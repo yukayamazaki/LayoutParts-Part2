@@ -18,13 +18,13 @@
 }
 .header-list {
   list-style: none;
-  float: right;
 }
 .header-list li {
   float: left;
-  padding: 30px;
 }
 .header-list a {
+  display:block ;
   color: #fff;
   text-decoration: none;
+  padding: 30px;
 }
