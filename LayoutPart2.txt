@@ -1,0 +1,38 @@
+Q6
+リストを作成した際に表示される・を消しているCSSは
+list-style: none;
+です。
+aタグのアンダーラインを消しているCSSは
+text-decoration: none;
+です。
+
+Q7
+beforeもafterも疑似要素であり、htmlを書き加えることなく要素の前後に挿入することができます。
+疑似要素を使用することで吹き出しの▽の部分を表現しています。
+
+Q8
+以下backgroundCSSのショートハンドで記載した場合のCSS
+
+.background-img-repeat {
+  background-image: url("../../image/coffee-background.jpg")  no-repeat ;
+  height: 500px;
+}
+.background-img-hikinobasi {
+  background-image: url("../../image/coffee-background.jpg") no-repeat center cover;
+  height: 500px;
+}
+.background-img-hchyuuuou {
+  background-image: url("../../image/coffee-background.jpg") no-repeat center contain;
+  height: 500px;
+}
+
+Q9-1
+fadeinのopacityの値を0～1の間に設定することで少し見せた状態からはっきりみせることができます。
+
+Q9-5
+hover-rotate:hoverの transform:rotate(180)deg ;に変更することで半回転します
+
+Q10
+各btn:activeのtransform:translateY(5px) ;でボタンをクリックするとボタンが5px下に下がるようにすることでbox-shadowを隠す形になりボタンが押されているようにみえます。
+
+.buttonにcursor: pointer;を記述しているためhover時にマウスカーソルが手のアイコンに切り替わるようになっています。
